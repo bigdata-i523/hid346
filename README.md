@@ -17,7 +17,6 @@ owner:
 
 ```
 paper1: Subject undecieded at this moment
-
    author: 
    - Zachary Meier
    hid:
