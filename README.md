@@ -10,7 +10,7 @@
 owner:
     hid: 346
     name: Zachary Meier
-    url: https://github.com/bigdata-i523/sample-hid346
+    url: https://github.com/bigdata-i523/hid346
 ```
 
 # Paper 1
