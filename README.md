@@ -20,13 +20,11 @@ paper1: Subject undecieded at this moment
 
    author: 
    - Zachary Meier
-  
-  hid:
+   hid:
    - 346
-   
-  title: This is my paper about xyz
-  abstract: This paper showcases tis and that and the other
-  url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+   title: This is my paper about xyz
+   abstract: This paper showcases tis and that and the other
+   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
 ```
    
 # Paper 2
