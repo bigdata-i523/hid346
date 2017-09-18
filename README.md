@@ -8,24 +8,25 @@
 
 ```
 owner:
-    hid: 000
-    name: Gregor von Laszewski
-    url: https://github.com/bigdata-i523/sample-hid000
+    hid: 346
+    name: Zachary Meier
+    url: https://github.com/bigdata-i523/sample-hid346
 ```
 
 # Paper 1
 
 ```
-paper1:
+paper1: Subject undecieded at this moment
+
    author: 
-   - Gregor von Laszewski
-   - Fugang Wang
-   hid:
-   - 000
-   - 001
-   title: This is my paper about xyz
-   abstract: This paper showcases tis and that and the other
-   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+   - Zachary Meier
+  
+  hid:
+   - 346
+   
+  title: This is my paper about xyz
+  abstract: This paper showcases tis and that and the other
+  url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
 ```
    
 # Paper 2
