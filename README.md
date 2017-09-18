@@ -16,12 +16,12 @@ owner:
 # Paper 1
 
 ```
-paper1: Subject undecieded at this moment
+paper1: 
    author: 
    - Zachary Meier
    hid:
    - 346
-   title: This is my paper about xyz
+   title: Subject undecieded at this moment
    abstract: This paper showcases tis and that and the other
    url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
 ```
