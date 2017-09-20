@@ -21,9 +21,9 @@ paper1:
    - Zachary Meier
    hid:
    - 346
-   title: Subject undecieded at this moment
-   abstract: This paper showcases tis and that and the other
-   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+   title: Big Data in Oceanography
+   abstract: Giving a broad overview of how we collect massive amounts of data about our ocean in hopes to understand and fix complicated issues our oceans face.
+   url: https://github.com/bigdata-i523/hid346/paper1
 ```
    
 # Paper 2
