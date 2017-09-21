@@ -1,6 +1,6 @@
 # Zachary Meier's Notebook
 
-####Sorry for the bulk dates, I cannot remember exact dates at this moment, but will try to be more accurate moving forward.
+#### Sorry for the bulk dates, I cannot remember exact dates at this moment, but will try to be more accurate moving forward.
 
 # Logistic
 ### 08/21/17 - 09/21/17
