@@ -1,18 +1,18 @@
-#Zachary Meier's Notebook
+# Zachary Meier's Notebook
 
 ####Sorry for the bulk dates, I cannot remember exact dates at this moment, but will try to be more accurate moving forward.
 
-## Logistic
+# Logistic
 ### 08/21/17 - 09/21/17
 * Read the entire class overview. Joined Piazza.
 * Joined cloudmesh and future systems.
 * Joined Big Data group on github
 
-## Theory
+# Theory
 ### 08/22/17 - 09/21/17 
 * Watched videos over IoT
 
-## Practice
+# Practice
 ### 08/22/17 - 09/21/17
 * Set up virtual machines with pyenv on Unbuntu.
 * Responded to piaza post pertaining to virtual machine error with VTX.
@@ -23,7 +23,7 @@
 * Aslo set up VNC viewer and server to remotley access my raspberry pi.
 
 
-## Writing
+# Writing
 ### 09/01/17 - 09/21/2017
 * Picked and got approved for paper1 topic.   (Big data in oceanography)
 * Installed Lextex on respberry PI
