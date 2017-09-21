@@ -26,7 +26,7 @@
 # Writing
 ### 09/01/17 - 09/21/2017
 * Picked and got approved for paper1 topic.   (Big data in oceanography)
-* Installed Lextex on respberry PI
+* Installed Lextex on raspberry PI
 
 
 
