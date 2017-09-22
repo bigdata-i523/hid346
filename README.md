@@ -22,7 +22,10 @@ paper1:
    hid:
    - 346
    title: Big Data in Oceanography
-   abstract: Giving a broad overview of how we collect massive amounts of data about our ocean in hopes to understand and fix complicated issues our oceans face.
+   abstract: >
+       Giving a broad overview of how we collect massive amounts
+       of data about our ocean in hopes to understand and fix
+       complicated issues our oceans face.
    url: https://github.com/bigdata-i523/hid346/paper1/BigDataInOceanography.pdf
 ```
    
@@ -36,18 +39,17 @@ paper2:
    - 000
    title: This is my paper about the other abc
    abstract: This paper showcases tis and that and the other in regards to abc
-   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
+   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf
 ```
 
 # Project 
 
-We will assign new pids for you when we approve the project and reports   
+We will assign new pids for you when we approve the project and reports
 Just use one type and delete the line with 
 
 ```
-paper2:
+project:
    type: project
-   type: report
    author: 
    - Gregor von Laszewski
    hid:
