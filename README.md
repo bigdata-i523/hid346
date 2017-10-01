@@ -26,7 +26,8 @@ paper1:
        Giving a broad overview of how we collect massive amounts
        of data about our ocean in hopes to understand and fix
        complicated issues our oceans face.
-   url: https://github.com/bigdata-i523/hid346/paper1/BigDataInOceanography.pdf
+   url: https://github.com/bigdata-i523/hid346/paper1/report.pdf
+   chapter: Environment
 ```
    
 # Paper 2
