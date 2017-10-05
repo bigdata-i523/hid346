@@ -27,6 +27,7 @@ paper1:
        of data about our ocean in hopes to understand and fix
        complicated issues our oceans face.
    url: https://github.com/bigdata-i523/hid346/paper1/report.pdf
+   type: latex 
    chapter: Environment
 ```
    
