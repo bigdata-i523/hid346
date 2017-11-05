@@ -16,6 +16,7 @@ paper1:
     type: latex
     url: https://github.com/bigdata-i523/hid346/paper1/report.pdf
 paper2:
+    review: Nov 6 2017
     abstract: This paper showcases tis and that and the other in regards to abc
     author:
         - Gregor von Laszewski
