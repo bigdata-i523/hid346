@@ -1,0 +1,11 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF-8
+
+
+@Electronic{http://oceanexplorer.noaa.gov/technology/tools/tools.html,
+  Title                    = {Observing Systems and Sensors},
+  Organization             = {National Oceanic and Atmospheric Administration},
+  Url                      = {http://oceanexplorer.noaa.gov/technology/tools/tools.html},
+  Year                     = {2013}
+}
+
