@@ -17,14 +17,16 @@ paper1:
     type: latex
     url: https://github.com/bigdata-i523/hid346/paper1/report.pdf
 paper2:
-    review: Nov 6 2017
-    abstract: This paper showcases tis and that and the other in regards to abc
+    review: Nov 28 2017
+    abstract: Netflix is an industry leader in handling large amounts of data to predict users needs but also help fine tune their internal processes.   This paper will cover how they operate as a company and how their use of data visualization has led to their success and how they continue to grow and provide service to millions with little service interruptions.
     author:
-        - Gregor von Laszewski
+        - Zachary Meier
     hid:
-        - 0
-    title: This is my paper about the other abc
-    url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf
+        - 346
+        status: Nov 28 17 100%
+    title: Netflix use of Big Data Visualization
+    type: latex
+    url: https://github.com/bigdata-i523/hid346/paper2/report.pdf
 project:
     abstract: This paper showcases tis and that and the other
     author:
