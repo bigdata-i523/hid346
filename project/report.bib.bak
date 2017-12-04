@@ -52,7 +52,7 @@
 
 @Article{SRIVAS,
   Title                    = {Wildfire Spread Prediction and Assimilation for FARSITE Using Ensemble Kalman Filtering1},
-  Author                   = {Thayjes Srivas and Tom�s Art�s and Raymond A. de Callafon and Ilkay Altintas},
+  Author                   = {Thayjes Srivas and Tomàs Artés and Raymond A. de Callafon and Ilkay Altintas},
   Journal                  = {Procedia Computer Science},
   Year                     = {2016},
   Note                     = {International Conference on Computational Science 2016, ICCS 2016, 6-8 June 2016, San Diego, California, USA},

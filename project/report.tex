@@ -5,41 +5,55 @@
 \author{Zachary Meier}
 \affiliation{%
   \institution{Indiana University}
-  \city{Bloomington} 
-  \state{Indiana} 
+  \city{Bloomington}
+  \state{Indiana}
   \postcode{47408}
 }
 \email{zrmeier@indiana.edu}
 % The default list of authors is too long for headers}
 \renewcommand{\shortauthors}{Z. Meier et al.}
+
 \begin{abstract}
-Growing up in Southern California, wild fires never seemed out of place.  It was not outside of the norm to walk out of the house and see Black Mountain on fire.  Over the years this problem continuted to get worse.  These fires started to cause massive amounts of property damange, loss of life, and hazzardas 
+Growing up in Southern California, wildfires never seemed out of place. It was not uncommon to walk out of the house and see the hillside on fire a few miles away on fire. Over the years this problem continued to get worse. These fires started to cause massive amounts of property damage, loss of life, and hazardous conditions for everyone.  When wildfires break out they soon become unpredictable due to wind conditions and vegetation.  To amplify problems further, most places where burns take place are hard to reach by the emergency crews fighting them.  The combination of these factors results in scattered resources, playing catch up rather than preventing the spread and evacuating large areas.  Using Predictive analytics to not only know where a fire is going but, possibly preventing it in the first place may help save lives and billions of dollars.
 \end{abstract}
+
 \keywords{Big Data, Edge Computing i523}
+
 \maketitle
+
 \section{Introduction}
+Wildfires are a large part of life in Southern California, and just like any other type of event has a large effect on the population, we as humans do our best to prepare for it.   Originally, it was building houses with stucco and tile roofs so they were less likely to catch fire. Now with the advancement of big data, there is a new way to look at and defend against wildfires.  These new technology and methods will allow first responders to be ahead of the fire.  Allowing for them to set backfires, and protect properties more efficiently, as well as help prevent new fires popping up from Santa Ana winds which help carry fire embers to new locations. There are a couple new technologies that help deal with this exact type of problem.
 
-\section{Brief History}
+\section{WIFIRE}
+Wildfires in the right setting are beneficial to health of an ecosystem.  However, when you put millions of people within that ecosystem, it becomes a problem.  This is the problem that the WIFIRE project started at University of California San Diego is trying to remedy.   The have created an end to end cyber infrastructure system to create real time prediction, visualization for wildfires in San Diego Counter. They use real time data from sensors and satellite for observation as well as meteorological study in order to create up to date predictions.  Being that San Diego county sees many wildfires, it is a prime location for testing this project out.  The most recent fire in 2007 cost over one billion dollars and causes half a million people to be evacuated from their homes.\cite{NPR} In order to collect the correct and most up to date information for tracking a wild fire they call upon the High Performance Wireless Research and Education Network known as HPWREN.  In addition, the use various partner sites that also collect large amounts of data.  These come from various types of data, such as, meteorology, vision and audio and hydrology.   To make all of relevant and precise for the end users, such as the fire fighters.
 
-\section{The Revolution of the Genre}
-I
-\subsection{The Netflix Quantum Theory}
+\subsection{Systems}
+Their systems for collecting this heterogeneous data uses a few different layers of architecture. There is a pipeline composed of many different sensors from the San Diego county, such as ground based sensors, SDG\&E (San Diego Gas \& Water Meteorology Stations) and the HPWREN as well as collect satellite imagery.  With all this heterogeneous data coming in the needed a way to process all the data.  They achieved this with  an open source workflow system called Kepler which organized the execution of the real time data processed.  Then that system distributed it to a portal for end user consumption.  This system is meant to handle large data input as well as execute computation in parallel so all data given is up to date.\cite{ALTINTAS}
 
-\section{Internal Use of Big Data}
+\subsection{Subsystems}
+The most important part of all this system is the data pipeline.  Which in their workflow is called the Data Communication Subsystem.  This system handles the large input of data and works with integration many different data sets and information from imaging, whether it be satellite or camera.  The influx of data is come is produced by three types of communication systems.  Meteorology stations, still cameras around San Diego County, and Satellite and Aerial data.  This data communication layer uses REST services to take in the data to the database and the who process is done in memory to keep processing time as low as possible.
 
-\subsection{Atlas}
+\subsection{Data Mining}
+Big data today would not be what it is today if not for the fundamental process of data mining.  Predicting trends based out of huge amounts of data, in order to understand exploit that data for practical use and application. WIFIRE also uses this methodology to find data relating to Santa Ana winds.  Analyzing the data from the meteorological stations from around the county can help them realize when and where a Santa Ana wind possible. This data would be useful to the firefighter, because it would allow them to know the fire may have a chance to spread further.In addition this data can also be put into fire modeling to help predict wildfires movement even better in the future.
 
 \subsection{Visualization}
+Using visual this project's goal is provide the most transparent data to first responders. Using satellite imagery to understand areas that have been previously scarred by fires and less likely to burn, while identifying areas that may be more susceptible to burning.  This uses the topography and analyzation from previous fires to give them a better picture of how fires moved throughout the county.
+    In addition to using the aerial data, the project is trying to create an application for pedestrians and bystanders to use to help track active fires from the ground.  The premise of this idea is that if enough users take photos they can recreate where that photo was taken in a 3D space and track the fire that way.  It would also help identify the fires over all perimeter.  Once again helping first responders, more effectively fight the fires and know the whole area it covers and where it is heading.
 
+\subsection{Data Assimilation}
+    Most programs on the market are based off of just pure data, and produce a simulation base of that.  The problem with that is fires and still not predictable.  Using the behavior of real fires from real time data, and compares that against stimulations, to correct the errors based off of the simulation alone. The system uses recursive algorithms created by Extended Kalman Filter and a Ensemble Kalman Filter.   It uses existing fire models such as those in FARSITE in a separate workflow.  Allowing for the real time fire date to run in process, and compare them against the simulation data previously provided.  This allows them to be compared and move them to the update step, which is where the data assimilation takes place.
 
-\subsection{Micro services}
+\subsection{Santa Ana Winds}
+Due to the amount of wildfires that spur up per year in the area, the amount of data received over wildfire may very.   However, one of the biggest factors in wildfires and their spreading ability is with Santa Ana Winds.  They are based off a couple key conditions, such as direction, speed and  relative humidity.  All of which create extremely dangerous situations for fires.  Luckily there are many sensor around San Diego County that can detect this happening.  The issues is however, is when an alert is sent, it is only for a specific point.  With the kepler workflow they are able to take in data from those individual stations and run it through a program called WindNinja which can take vegetation, topography and weather stations into account produce a mapping of the areas affected.  These are ran through the workflow breaking down tiles from the stations in 50km by 50km blocks for marking the wind occurrence.  This then runs through a data processing software such as Spark or Hadoop.  
 
 \section{Conclusion}
+In conclusion, the use of big data in fire prevention and tracking is an impressive system.   It incorporates a multitude of sensors and data from various sources.  Creating predictions of fires and creating data models which will help first responders saves lives, and protect property from damage.  This application will allow efficient of firefighter resources and allow for them to be one step ahead of the fire.  Which until now was impossible.  Only when the weather changed, were we able to change and react.   With the predictive modeling and machine learning, the models will continue to get more accurate as the topography and fire interactions continue into the future.  While this system will not prevent all wild fire, it will be instrumental in slowing them down.  Once again man will try to tame fire as we have tried to do since the beginning of our existence. 
+
+ 
 
 \begin{acks}
-  The authors would like to thank Dr. Gregor von Laszewski and the TA's for their help and support.
+The authors would like to thank Dr. Gregor von Laszewski and the TA's for their help and support.
 \end{acks}
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{report} 
+\bibliography{report}
 \end{document}
- 
