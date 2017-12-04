@@ -5,8 +5,9 @@ owner:
     url: https://github.com/bigdata-i523/hid346
 paper1:
     abstract: >
-       Giving a broad overview of how we collect massive amounts of data about
-        our ocean in hopes to understand and fix complicated issues our oceans face.
+       Giving a broad overview of how we collect massive amounts of
+       data about our ocean in hopes to understand and fix complicated
+       issues our oceans face.
     author:
         - Zachary Meier
     chapter: Environment
@@ -15,24 +16,30 @@ paper1:
     status: Nov 25 17 100%
     title: Big Data in Oceanography
     type: latex
-    url: https://github.com/bigdata-i523/hid346/paper1/report.pdf
+    url: https://github.com/bigdata-i523/hid346/paper1
 paper2:
     review: Nov 28 2017
-    abstract: Netflix is an industry leader in handling large amounts of data to predict users needs but also help fine tune their internal processes.   This paper will cover how they operate as a company and how their use of data visualization has led to their success and how they continue to grow and provide service to millions with little service interruptions.
+    abstract: >
+        Netflix is an industry leader in handling large amounts of
+        data to predict users needs but also help fine tune their
+        internal processes.  This paper will cover how they operate as
+        a company and how their use of data visualization has led to
+        their success and how they continue to grow and provide
+        service to millions with little service interruptions.
     author:
         - Zachary Meier
     hid:
         - 346
-        status: Nov 28 17 100%
+    status: Nov 28 17 100%
     title: Netflix use of Big Data Visualization
     type: latex
-    url: https://github.com/bigdata-i523/hid346/paper2/report.pdf
+    url: https://github.com/bigdata-i523/hid346/paper2
 project:
     abstract: This paper showcases tis and that and the other
     author:
-        - Gregor von Laszewski
+        - Zachary Meier
     hid:
-        - 0
-    title: Benchmarking a BigData Docker deployment
+        - 346
+    title: NOt submitted
     type: project
-    url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
+    url: https://github.com/bigdata-i523/sample-pid000/project
