@@ -1,5 +1,5 @@
 % This file was created with JabRef 2.10.
-% Encoding: UTF8
+% Encoding: ISO8859_1
 
 
 @Article{ALTINTAS,
@@ -18,7 +18,23 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S1877050915011047}
 }
 
-@Article{CRAWL,
+@Article{CRAWLFiremap,
+  Title                    = {Firemap: A Dynamic Data-Driven Predictive Wildfire Modeling and Visualization Environment},
+  Author                   = {Daniel Crawl and Jessica Block and Kai Lin and Ilkay Altintas},
+  Journal                  = {Procedia Computer Science},
+  Year                     = {2017},
+  Note                     = {International Conference on Computational Science, ICCS 2017, 12-14 June 2017, Zurich, Switzerland},
+  Number                   = {Supplement C},
+  Pages                    = {2230 - 2239},
+  Volume                   = {108},
+
+  Doi                      = {https://doi.org/10.1016/j.procs.2017.05.174},
+  ISSN                     = {1877-0509},
+  Keywords                 = {wildfire, visualization, Kepler, GIS},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S1877050917307585}
+}
+
+@Article{CRAWLKepler,
   Title                    = {Kepler WebView: A Lightweight, Portable Framework for Constructing Real-time Web Interfaces of Scientific Workflows},
   Author                   = {Daniel Crawl and Alok Singh and Ilkay Altintas},
   Journal                  = {Procedia Computer Science},
@@ -64,14 +80,5 @@
   ISSN                     = {1877-0509},
   Keywords                 = {Wildfire, Data Assimilation, FARSITE, Ensemble Kalman Filter},
   Url                      = {http://www.sciencedirect.com/science/article/pii/S187705091630727X}
-}
-
-@Electronic{NPR,
-  Title                    = {Cost of California wildfires is more than $1 billion,},
-  Language                 = {Englsih},
-  Month                    = {October},
-  Organization             = {National Public Radio},
-  Url                      = {http://www.npr.org/templates/story/story.php?storyId=15603441},
-  Year                     = {2010}
 }
 
