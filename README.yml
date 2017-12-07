@@ -34,6 +34,7 @@ paper2:
     title: Netflix use of Big Data Visualization
     type: latex
     url: https://github.com/bigdata-i523/hid346/paper2
+    chapter: Media
 project:
     abstract: This paper showcases tis and that and the other
     author:
