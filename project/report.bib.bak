@@ -18,22 +18,6 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S1877050915011047}
 }
 
-@Article{BRUN,
-  Title                    = {A High Performance Computing Framework for Continental-Scale Forest Fire Spread Prediction},
-  Author                   = {C. Brun and T. Artes and A. Cencerrado and T. Margalef and A. Cortés},
-  Journal                  = {Procedia Computer Science},
-  Year                     = {2017},
-  Note                     = {International Conference on Computational Science, ICCS 2017, 12-14 June 2017, Zurich, Switzerland},
-  Number                   = {Supplement C},
-  Pages                    = {1712 - 1721},
-  Volume                   = {108},
-
-  Doi                      = {https://doi.org/10.1016/j.procs.2017.05.258},
-  ISSN                     = {1877-0509},
-  Keywords                 = {Forest fire propagation, Simulation, HPC, Genetic algorithm},
-  Url                      = {http://www.sciencedirect.com/science/article/pii/S187705091730889X}
-}
-
 @Article{CRAWLFiremap,
   Title                    = {Firemap: A Dynamic Data-Driven Predictive Wildfire Modeling and Visualization Environment},
   Author                   = {Daniel Crawl and Jessica Block and Kai Lin and Ilkay Altintas},
@@ -98,13 +82,15 @@
   Url                      = {http://www.sciencedirect.com/science/article/pii/S187705091630727X}
 }
 
-@Misc{NPR,
+@misc{NPR,
   Title                    = {Cost of California Wildfires Is More than 1 Billion},
+  Language                 = {English},
   Month                    = {October},
+  Organization             = {NPR},
+  Url                      = {https://www.npr.org/templates/story/story.php?storyId=15603441},
   Year                     = {2007},
 
-  Language                 = {English},
-  Organization             = {NPR},
-  Url                      = {https://www.npr.org/templates/story/story.php?storyId=15603441}
+  Owner                    = {zrmeier},
+  Timestamp                = {2017.12.07}
 }
 
