@@ -37,18 +37,20 @@ paper2:
     chapter: Media
 project:
     abstract: >
-	In Southern California, wildfires never seem too out of place
-	and seem to be a commonly accepted as a norm for the most part. 
-	Over the years this problem has only continued to get worse. These
-	fires started to cause massive amounts of property damage, loss of life,
-	and hazardous conditions for everyone.  When wildfires break out they soon
-	become unpredictable due to wind conditions and vegetation.  To amplify 
-	problems further, most places where burns take place are hard to reach by
-	the emergency crews fighting them.  The combination of these factors results
-	in scattered resources, playing catch up rather than preventing the spread and
-	evacuating large areas.  Using Predictive analytics to not only know 
-	where a fire is going but, possibly preventing it in the first place 
-	may help save lives and billions of dollars.
+        In Southern California, wildfires never seem too out of place
+        and seem to be a commonly accepted as a norm for the most
+        part.  Over the years this problem has only continued to get
+        worse. These fires started to cause massive amounts of
+        property damage, loss of life, and hazardous conditions for
+        everyone.  When wildfires break out they soon become
+        unpredictable due to wind conditions and vegetation.  To
+        amplify problems further, most places where burns take place
+        are hard to reach by the emergency crews fighting them.  The
+        combination of these factors results in scattered resources,
+        playing catch up rather than preventing the spread and
+        evacuating large areas.  Using Predictive analytics to not
+        only know where a fire is going but, possibly preventing it in
+        the first place may help save lives and billions of dollars.
     author:
         - Zachary Meier
     hid:
